@@ -1,0 +1,49 @@
+/* body style */
+body{
+    background:#f2f2f2;
+    font-family:Arial;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+
+/* calculator box */
+.calculator{
+    background:rgb(88, 70, 70);
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+
+/* display screen */
+#display{
+    width:100%;
+    height:40px;
+    font-size:20px;
+    text-align:right;
+    margin-bottom:10px;
+}
+
+/* button grid */
+.buttons{
+    display:grid;
+    grid-template-columns:repeat(4,60px);
+    gap:10px;
+}
+
+/* button style */
+button{
+    height:50px;
+    font-size:25px;
+    border:none;
+    background:#e0e0e0;
+    cursor:pointer;
+
+}
+
+/* button hover effect */
+button:hover{
+    background:#bdbdbd;
+}
